@@ -2,10 +2,8 @@
 
 This repository contains a set of python codes for the classification of various images, such as, HRCT, CT Scan, X-Ray, associated with COVID-19.  In addition, we have added images from different viewpoints (axial view, side by side view) to increase the classification accuracy of the model. We further have incorporated a slight modification on a previous code [1]. The model architecture has been illustrated in the figure below. We have executed the code on Ubuntu version 19.10. The classification needs three python codes as given below.  
 
+![](Images/Image_Classification.png)
 
-
-  
-  
 - covid19_ai_diagnoser.py: This file contains the functions for regular Pneumonia tests as well as COVID-19 tests.
 - covid19_ai_diagnoser_optimal_model_architecture.py: This file contains function of confusion matrix that is used to measure accuracy of the model. Moreover, the model architecture is also described.
 - covid19_ai_diagnoser_ui.py: This python file contributes the user interface to run the model efficiently.
